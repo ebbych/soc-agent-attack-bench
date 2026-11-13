@@ -163,3 +163,7 @@ A full sweep is 599 cases x 7 defenses, each a multi-step tool loop. Check your 
 ## Safety
 
 Everything is synthetic: reserved IP ranges, `.example` domains, simulated tools. The payloads only target the sandbox in this repo, and every encoded string decodes to the same harmless sentence.
+
+## License
+
+MIT. See [LICENSE](LICENSE).

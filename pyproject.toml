@@ -7,6 +7,7 @@ name = "soc-agent-attack-bench"
 version = "0.2.0"
 description = "Order, Lie, Silence: an attack benchmark for AI SOC triage agents"
 requires-python = ">=3.10"
+license = { text = "MIT" }
 dependencies = []
 
 [project.optional-dependencies]
