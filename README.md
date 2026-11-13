@@ -4,6 +4,10 @@
 
 > Status: v0.2. One real model (Claude Haiku 5.5) has been run on all three attack families, once or twice each. Treat the exact rates as rough.
 
+![How one test case runs, where each defense sits, and the three results](docs/overview.svg)
+
+Read the full write-up in the [whitepaper](docs/WHITEPAPER.md).
+
 ## Why this exists
 
 A SOC triage agent reads alerts, logs, threat-intel comments and old case notes. An attacker can write to all of those. That gives three ways to beat the agent:
