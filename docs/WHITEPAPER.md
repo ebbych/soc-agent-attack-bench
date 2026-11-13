@@ -169,6 +169,7 @@ Claude Haiku 5.5 (`claude-haiku-5-5`) was run with no defense on all three attac
 | Evidence attacks | 100 | 0 believed; the model read 91 of the 100 payloads |
 | Refusal bait | 25 | 5 alerts dropped by refusals |
 | Refusal bait with fail closed | 25 | 3 refusals, 0 alerts dropped |
+| Benign controls | 36 | 36 triaged correctly |
 | Clean alerts | 12 | 12 triaged correctly |
 
 **The model was never persuaded.** Across 526 attacks that tried to order it or lie to it, it did not once do what the attacker wanted.

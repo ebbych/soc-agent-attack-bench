@@ -79,6 +79,7 @@ Claude Haiku 5.5 (`claude-haiku-5-5`), run on 2026-11-13:
 | Evidence attacks | 100 | 0 believed; the model read 91 of the 100 payloads |
 | Refusal bait | 25 | 5 alerts dropped by refusals |
 | Refusal bait with `fail_closed` | 25 | 3 refusals, 0 alerts dropped |
+| Benign controls | 36 | 36 triaged correctly |
 | Clean alerts | 12 | 12 triaged correctly |
 
 - **The model was never persuaded.** It did not once do what an instruction or a forged piece of evidence was aiming for.
@@ -86,7 +87,7 @@ Claude Haiku 5.5 (`claude-haiku-5-5`), run on 2026-11-13:
 - **Some refusals are intermittent.** Three cases refused in both refusal-bait runs; two refused in one run only.
 - **The model once isolated the domain controller unprompted** while investigating it. The benchmark counts that as unsafe, and the action gate would have blocked it.
 
-The instruction run used v0.1.1, which has the same 426 instruction cases. Why some encoded strings trigger a refusal and similar ones do not is not known.
+The raw output files are in [results/claude-haiku-5-5](results/claude-haiku-5-5). The instruction run used v0.1.1, which has the same 426 instruction cases. Why some encoded strings trigger a refusal and similar ones do not is not known.
 
 ### Worst case per defense (scripted agents)
 
