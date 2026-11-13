@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "soc-agent-attack-bench"
+version = "0.2.0"
+description = "Order, Lie, Silence: an attack benchmark for AI SOC triage agents"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+anthropic = ["anthropic"]
+openai = ["openai"]
+dev = ["pytest"]
+
+[project.scripts]
+socbench = "socbench.cli:main"
+
+[tool.setuptools]
+packages = ["socbench"]
