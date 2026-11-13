@@ -6,7 +6,7 @@
 
 ![How one test case runs, where each defense sits, and the three results](docs/overview.svg)
 
-Read the full write-up in the [whitepaper](docs/WHITEPAPER.md).
+Read the full write-up in the [whitepaper](docs/WHITEPAPER.md), also available as a [PDF](docs/Order-Lie-Silence-whitepaper.pdf).
 
 ## Why this exists
 
